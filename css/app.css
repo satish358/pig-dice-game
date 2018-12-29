@@ -1,0 +1,108 @@
+body{
+    padding: 20px;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    color: white;
+}
+
+html { 
+  background: url(/images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    
+ }
+
+.card{
+    flex: auto;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+    margin: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 500px;
+}
+
+.card:hover{
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4);
+}
+
+.text-center{
+    text-align: center;
+}
+.player-1,{
+    flex: auto;
+    width: 400px;
+    background-color: #dddddd;
+}
+.player-2{
+    width: 400px;
+}
+#dice{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex: auto;
+    width: 150px;
+    height: 150px;
+    border-color: green;
+}
+.add-points,.dice-roll{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.green {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.green:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.red {
+  border-color: #f44336;
+  color: red
+}
+
+.red:hover {
+  background: #f44336;
+  color: white;
+}
+.score-1,.score-2{
+    width: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    height: 100px;
+    background: #f44336;
+}
+.total-score-1,.total-score-2{
+    font-size: 5em;
+    text-align: center;
+    color: #f44336;
+}
+.player-head-1,.player-head-2 {
+    font-size: 2em;
+    text-align: center;
+}
